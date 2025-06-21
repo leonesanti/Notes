@@ -1,1 +1,85 @@
+Maui SY0-701 Notes
+Schedule an Exam: https://www.pearsonvue.com/us/en/comptia.html
+Get Free Badges: https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US
 
+DAY ONE
+
+SecPlus+
+Type 1: Certified + Jobless
+Type 2: Certified + Numerous Offers
+
+Build an On Prem Network
+         On Cloud
+         On Security both:
+
+Data Center's Heart: Switch
+
+CIA
+Confidentiality
+Integrity
+Availability
+
+KALI Linux?
+
+W + R... securecrt
+compmgmt.msc
+
+Pound Sign (#) gives Root Access
+
+BUY!
+Ethernet Switch w/ Console Port
+UGreen Console Cable
+Fortinet
+Cisco Firetower
+Layer 3 Switch
+
+securecrt
+Serial
+COM4
+Update DAY1-May5-SirRob.txt - Copy Lines 35 to 168 to PowerShell
+Copy Lines 3 to 37 to COM4
+Create DHCP = Copy Lines 66 to 92
+SVI = Switch Virtual Interface
+siib = show ip in bri
+Create VLANS = Copy Lines 96 to 134
+DHCP = provides IP address
+Wireshark
+svb = show vlan brief
+
+PKI = Public Key Infrastructure
+
+ncpa.cpl
+
+Skills:
+1. Can automate security tasks using PowerShell
+2. Able to monitor, mitigate, and isolate Layer 2 network attacks using Wireshark/TCPDUMP
+3. Can verify the file integrity of software using md5/sha256 hash verification
+
+1. Malware - Malicious Software - steal data or disrupt system
+2. Ransomware - lock or encrpyt files
+3. Trojan - "free game" or "installer"
+4. 
+
+Human Manipulation
+(a) Tailgating
+(b) Phishing
+(c) Baiting
+
+Home Exercise
+https://github.com/art-stacks/S2S-VPN/blob/main/Home%20Exercise.png
+172.16.12.1     TUNNEL IP          172.16.12.14
+255.255.255.240 TUNNEL SUBNET MASK 255.255.255.240
+Gig 1           SOURCE INTERFACE   Gig 1
+200.0.0.30      REMOTE PEER IP     200.0.0.1 
+AAAAAAAA        PRE-SHARED KEY     AAAAAAAA
+10.200.22.0 /30 REMOTE SUBNETS     10.100.11.0 /30
+255.255.255.252                    255.255.255.252
+
+
+10.200.22.1 /30
+
+10.200.22.0
+10.200.22.4
+10.200.22.8
+
+https://xorbin.com/tools/sha256-hash-calculator
