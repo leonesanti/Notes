@@ -33,3 +33,5 @@ Scan 32 computers of dlsu
 Scan 128 computers of rivan it
 
 netstat -s -p tcp
+
+PowerShell is used for automation
