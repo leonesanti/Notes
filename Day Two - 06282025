@@ -35,3 +35,7 @@ Scan 128 computers of rivan it
 netstat -s -p tcp
 
 PowerShell is used for automation
+
+SIEM - Security Information and Event Management
+Wazuh
+Dynatrace
