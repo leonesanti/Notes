@@ -19,3 +19,17 @@ Day 2 06/28/2025
    1    f872.ea23.c834    DYNAMIC     Fa0/4
 
 Switch can read the MAC addresses of devices connected to it
+
+
+new file
+autowifi.py
+
+Find the IP of www.rivanit.com
+                www.dlsu.edu.ph
+                www.umak.edu.ph
+
+Scan 16 computers of umak
+Scan 32 computers of dlsu
+Scan 128 computers of rivan it
+
+netstat -s -p tcp
