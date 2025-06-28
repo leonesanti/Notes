@@ -6,5 +6,16 @@ Day 2 06/28/2025
     - Hmail
 - Meraki
     - Firewall
-- Jumpserver (
-- 
+- Jumpserver (PAM)
+
+   1    001a.0704.7f5b    DYNAMIC     Fa0/8
+   1    001a.0709.c258    DYNAMIC     Fa0/6
+   1    005d.73f5.83a8    DYNAMIC     Fa0/2
+   1    6884.7e92.7166    DYNAMIC     Fa0/9
+   1    689e.0b49.f1a0    DYNAMIC     Gi0/1
+   1    c025.a5ca.00d6    DYNAMIC     Fa0/1
+   1    ccd8.c1fb.0817    DYNAMIC     Fa0/5
+   1    ccd8.c1fb.161b    DYNAMIC     Fa0/7
+   1    f872.ea23.c834    DYNAMIC     Fa0/4
+
+Switch can read the MAC addresses of devices connected to it
