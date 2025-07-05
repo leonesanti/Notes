@@ -68,14 +68,18 @@ Task 6: How to Land a Cyber Security Job  by Pretending to have 3 Years Experien
 http://208.8.8.137/otrs/index.pl
 root@localhost
 C1sc0123
+Backend
 
 http://208.8.8.137/otrs/customer.pl
 user1
 C1sc0123
+Frontend
 
 http://208.8.8.137:8069
 itil@rivanschool.com
 C1sc0123
+App Management
+
 Vendor Management System
 Enterprise Resource Planning
 
@@ -128,3 +132,6 @@ Service Level Agreement (SLA)
 2. Mean Time to Resolve (MTTR) SLA: resolved in 4 hours or less
 3. 24/7 Availability and Uptime Guarantee SLA
   SOC must maintain a 99.9% operational availability, with 24x7x365 monitoring and escalation coverage
+
+JumpServer
+Privilege and Access Management (PAM)
