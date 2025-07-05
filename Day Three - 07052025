@@ -1,21 +1,124 @@
 Section 5: Secure Enterprise Network Architecture
-1. Switches
+1. Switches: VLAN
   a. Cisco
   b. Dell
   c. HP
   d. ExtremeNet
   e. Huawei
+
 2. Load Balancers / Dual WAN (Optional)
   a. F5
   b. Citrix
   c. Meraki (yuck)
+
 3. Routers
   a. Cisco Catalyst 8000
+
 4. Firewalls
   a. Palo Alto
   b. Fortinet
+  c. Sophos
+
 5. DNS Servers
+  a. Build and secure your own
+
 6. Endpoints (Wazuh)
 
 Rule 1: If you want secure network, NO online shopping
 50 to 150 users: SMB/SME
+
+Download and install Wireshark
+
+Task 2: Protecting your Switch
+3 Kinds of Network Traffic:
+1. Unicast: Good NOT multicast/broadcast
+2. Multicast: Meh, pwede 01-00-5e
+3. Broadcast: Bad shit! ffffffffffff
+
+Task 3: Vulnerability Management
+CVE-2020-3120
+Common Vulnerability and Exposure (CVE)
+
+How to exploit Cisco CDP ports
+
+Secure Server
+Minimum of:
+6 Hard Drives
+4 LAN Cards
+
+Task 4: Building Your Own Secure Directory Service and DNS from Scratch
+1. IP address must be one (1) only
+
+MS ENTRA ID vs. AWS IAM
+
+Task 5: Implementing and Understanding Cyber Resiliency
+Rule 1: Always have a backup of the backup
+diskmgmt.msc
+Network Attached Storage (NAS)
+  "file server/CIFS/NFS server" 139/445
+Storage Area Networks (SAN)
+  blockStorage: iSCSI
+
+Veeam Backup (Premium)
+Veritas (Ok)
+Bacula (Free)
+
+Task 6: How to Land a Cyber Security Job  by Pretending to have 3 Years Experience and Pull It Off:
+
+http://208.8.8.137/otrs/index.pl
+root@localhost
+C1sc0123
+
+http://208.8.8.137/otrs/customer.pl
+user1
+C1sc0123
+
+http://208.8.8.137:8069
+itil@rivanschool.com
+C1sc0123
+Vendor Management System
+Enterprise Resource Planning
+
+Top 5 SOC Tickets
+1. Phising/SMShing Email Ticket
+2. Failed Login / Brute Force Attempts Ticket
+3. Suspicious Network Traffic / Beaconing Ticket
+4. Detected Vulnerability (Patch Gaps) Ticket
+5. Data Exfiltration Indicators Ticket
+6. Cloud ERP Misconfiguration Alerts Ticket
+7. Endpoint Malware Detection (EDR Alert) Ticket
+
+Where you will be working:
+1. Tier1/L1 SOC Analyst / Alert Triage
+  Initial alert triage
+  Monitor dahsboards (SIEM)
+  Escalate real threats
+  Close false positives
+  30k below
+2. Tier2/L2 Indident Responder / Security Analyst
+  Investigate escalated alerts
+  Perform deep-dive analysis
+  Collect evidence and correlate data
+  30k to 75k
+3. Tier3/L3 Threat Hunter / Senior Analyst / Forensic Specialist
+  Proactive threat hunting
+  Advanced incident response
+  TTP and analysis (MITRE ATT&CK)
+  Malware analysis
+  80k to 180k
+4. Tier4 SOC Manager / Security Engineer / SME
+  Oversight and coordination
+  Improve playbooks and detection rules
+  Liasison with client CISO
+  Lead major incident response
+  100k to 300k
+
+SOC Operations Service Management ITSM:
+1. 24/7 Information Security Monitoring Service
+  Real-time monitoring of logs, alerts, and system behavior using SIEM tools (e.g., Splunk, Sentinel, ORadar) to detect threats around the clock.
+2. Incident Detection and Response (IDR) Service
+  Identifying and responding to security incidents such as malware infections, phishing, data breaches, or unauthorized access.
+3. Threat Intelligence and Threat Hunting Service
+  Proactive identification of advanced threats using threat intelligence feeds and hunting techniques (MITRE ATT&CK).
+4. Security Reporting and Compliance Support Service
+  Generation of detailed reports for audits, compliance (e.g., ISO 27001, NIST, PCI-DSS, DPA 2012), and SLA/KPI tracking.
