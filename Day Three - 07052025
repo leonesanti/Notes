@@ -122,3 +122,9 @@ SOC Operations Service Management ITSM:
   Proactive identification of advanced threats using threat intelligence feeds and hunting techniques (MITRE ATT&CK).
 4. Security Reporting and Compliance Support Service
   Generation of detailed reports for audits, compliance (e.g., ISO 27001, NIST, PCI-DSS, DPA 2012), and SLA/KPI tracking.
+
+Service Level Agreement (SLA)
+1. Incident Reponse Time: 30 mins to 60 mins
+2. Mean Time to Resolve (MTTR) SLA: resolved in 4 hours or less
+3. 24/7 Availability and Uptime Guarantee SLA
+  SOC must maintain a 99.9% operational availability, with 24x7x365 monitoring and escalation coverage
