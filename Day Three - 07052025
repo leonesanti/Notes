@@ -1,9 +1,21 @@
 Section 5: Secure Enterprise Network Architecture
 1. Switches
-2. Load Balancers (Optional)
+  a. Cisco
+  b. Dell
+  c. HP
+  d. ExtremeNet
+  e. Huawei
+2. Load Balancers / Dual WAN (Optional)
+  a. F5
+  b. Citrix
+  c. Meraki (yuck)
 3. Routers
+  a. Cisco Catalyst 8000
 4. Firewalls
+  a. Palo Alto
+  b. Fortinet
 5. DNS Servers
 6. Endpoints (Wazuh)
 
-Rule 1: 
+Rule 1: If you want secure network, NO online shopping
+50 to 150 users: SMB/SME
