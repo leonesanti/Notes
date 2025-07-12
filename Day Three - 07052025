@@ -43,7 +43,7 @@ How to exploit Cisco CDP ports
 
 Secure Server
 Minimum of:
-6 Hard Drives
+6 Hard Drives (optimal: 8)
 4 LAN Cards
 
 Task 4: Building Your Own Secure Directory Service and DNS from Scratch
