@@ -91,3 +91,27 @@ WIFIOU
   - U: Manny Pacquiao
   - GGWIFI
   - LGWIFI
+
+AAA: Authentication, Authorization, Accounting
+                      AGdLP:
+
+Zero Trust / Least Privilege Principle
+
+SSO
+Single Sign On
+SSOGA
+Single Sign On Global Access
+
+shell:priv-lvl=15
+
+config t
+	aaa new-model
+	username backdoor password pass
+	Radius-server host 10.12.1.8 key AAAAAAAA
+	ip radius source-Interface Vlan 1
+	aaa authorization exec default group radius
+	aaa authentication login default group radius local
+	line vty 0 14
+		login authentication default
+end
+
