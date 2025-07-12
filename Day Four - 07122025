@@ -6,6 +6,8 @@ A - Availability
 Task 1: Mastering Availability
 Protect Data, when:
   1. it is stored
+    Implement RAID systems: R1, R5, R10
+    Implement full backup once a week, daily automated incremental backup (9 PM)
   2. in transit
   3. in the destination
 
@@ -34,6 +36,7 @@ Mirrored / Raid One
 Raid Five
   - SQL DBs and Tables
 
+Bacula
 Veeam and Veritas
 
 3 Types of Backups
@@ -47,3 +50,44 @@ Differential
 What's your backup protocol/strategy?
 
 Restore to a bigger storage
+
+Task 2: Loan Balance
+NIC Teaming
+  - can combine up to 8 LANs
+
+Azure AD vs. AWS IAM vs. Okta IAM
+
+Azure AD Basic Configuration:
+1. Create Organizational Unit, Users, Global Groups, Local Groups
+
+OU:
+
+SOC
+  - U: Maui
+  - U: Ivana Alawi
+  - GGSOC
+  - LGLOGS
+
+MISIT
+  - U: Anne Curtis
+  - U: Anne Smith
+  - GGMIS
+  - LGSQL
+
+HRD
+  - U: Kim Chiu
+  - U: Kathryn Bernardo
+  - GGHRD
+  - LGSALARY
+
+ACCT
+  - U: LeBron James
+  - U: Luka Doncic
+  - GGACCT
+  - LGEPSON
+
+WIFIOU
+  - U: Michael Jordan
+  - U: Manny Pacquiao
+  - GGWIFI
+  - LGWIFI
