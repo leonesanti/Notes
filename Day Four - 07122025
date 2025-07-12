@@ -102,6 +102,7 @@ Single Sign On
 SSOGA
 Single Sign On Global Access
 
+give 100% access to AD!
 shell:priv-lvl=15
 
 config t
@@ -115,3 +116,34 @@ config t
 		login authentication default
 end
 
+no aaa new-model
+
+IT Governance
+People
+Process
+Technology
+
+Day4f-Dec12cyBerSEC.txt
+Line 562
+
+Port Address Translation
+config t
+no access-list 8
+access-list 8 permit host 192.168.103.21
+access-list 8 permit host 192.168.103.22
+Int Gi 3
+ ip nat Inside
+Int gi 1
+ ip nat Outside
+IP Nat inside source static tcp 192.168.103.21 80 208.8.8.121 80
+IP Nat inside source static tcp 192.168.103.21 80 208.8.8.121 8080
+IP Nat inside source static tcp 192.168.103.21 443 208.8.8.121 443
+IP Nat inside source static tcp 192.168.103.21 443 208.8.8.121 8443
+!for www.surebet22.com
+IP Nat inside source static tcp 192.168.103.22 80 208.8.8.122 80
+IP Nat inside source static tcp 192.168.103.22 80 208.8.8.122 8080
+IP Nat inside source static tcp 192.168.103.22 443 208.8.8.122 443
+IP Nat inside source static tcp 192.168.103.22 443 208.8.8.122 8443
+IP nat inside source list 8 int gi 1 Overload
+end
+show ip nat translation
