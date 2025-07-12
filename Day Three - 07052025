@@ -56,8 +56,10 @@ Rule 1: Always have a backup of the backup
 diskmgmt.msc
 Network Attached Storage (NAS)
   "file server/CIFS/NFS server" 139/445
+  - poor man's data storage
 Storage Area Networks (SAN)
   blockStorage: iSCSI
+  - gigachad data storage
 
 Veeam Backup (Premium)
 Veritas (Ok)
