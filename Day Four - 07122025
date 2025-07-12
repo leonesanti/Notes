@@ -4,3 +4,44 @@ I - Integrity
 A - Availability
 
 Task 1: Mastering Availability
+Protect Data, when:
+  1. it is stored
+  2. in transit
+  3. in the destination
+
+Windows Disk Management
+In CLI: diskmgmt.msc
+
+Striped - R0
+Mirrored - R1
+Raid-5
+  - parity / "safety fund"
+
+dir
+  - boot files
+dir ah
+  - system files
+
+Simple
+  - Non-critical Data
+Spanned
+  - Expendable Data
+Striped / Raid Zero
+  - Internet Cache
+  - 4K Hi-Res Videos
+Mirrored / Raid One
+  - System and Boot Files for Windows and Linux
+Raid Five
+  - SQL DBs and Tables
+
+Veeam and Veritas
+
+3 Types of Backups
+Full
+  - Since the beginning of time
+Incremental
+  - For the day
+Differential
+  - Since last Full Backup
+
+What's your backup protocol/strategy?
